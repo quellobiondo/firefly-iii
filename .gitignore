@@ -11,4 +11,5 @@ yarn-error.log
 .env
 public/google*.html
 report.html
+/Ztools
 composer.phar

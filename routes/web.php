@@ -89,7 +89,6 @@ Route::group(
     Route::get('', ['uses' => 'TwoFactorController@index', 'as' => 'index']);
     Route::get('lost', ['uses' => 'TwoFactorController@lostTwoFactor', 'as' => 'lost']);
     Route::post('', ['uses' => 'TwoFactorController@postIndex', 'as' => 'post']);
-
 }
 );
 
